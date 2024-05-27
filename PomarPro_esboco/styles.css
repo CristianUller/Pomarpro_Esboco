@@ -1,0 +1,116 @@
+html,body{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 67%;
+    font-family: candara;
+    background-color:burlywood;
+}
+header{
+    width: 100%;
+    height: 15em;
+    margin-top: 0px;
+    display: flex;  
+    align-items: center    ;
+
+    background-color: bisque;
+    bottom: 2px;
+    color:  rgba(189, 88, 30, 0.849) ;
+    border: 2px black solid;
+    
+}
+header img{
+    height: 110%;
+   
+}
+
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.7em;
+}
+header button{
+    padding: 10px;
+    background-color: rgba(189, 88, 30, 0.849) ;
+    border: 0; 
+    color: rgb(17, 14, 14);
+    font-family: candara;
+    border-radius: 5px;
+    box-shadow:0 0 0.9em rgba(189,68,30,0.720);
+}  
+
+form {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+    color: black;
+}
+
+input{
+    margin: 2vw;
+    height: 3vw;
+    width: 10vw;
+    background-color:#CD853F ;
+    border-radius: 5px;
+    box-shadow:0 0 0.9em rgba(8, 8, 8, 0.72);
+    
+}
+
+button{
+    margin: 2vw;
+    height: 3vw;
+    width: 6vw;
+    background-color:#CD853F ;
+    border-radius: 5px;
+    box-shadow:0 0 0.9em rgba(8, 8, 8, 0.72);
+   
+}
+::placeholder{
+    color:rgb(0, 0, 0);
+    font-family: arial;
+}
+
+button:hover{
+    background-color:#363636;
+    
+   
+    transition-duration: 1s;
+    cursor: help;
+}
+
+footer{
+    
+    border-top: 3px black solid;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(Assets/Img/madeira.jpeg	);
+    margin: 0px;
+    height: 40%;
+   
+}
+
+input:hover{
+    background-color:#363636 ;
+    color: white;
+    size-adjust: 2vw;
+    transition-duration: 1s;
+    cursor: help;
+    
+}
+
+footer p{
+    font-size: 2vw;
+    font-family: garandot;
+    color: #9b6025;
+    text-shadow:0 0 0.1em rgba(0, 0, 0, 0.72);
+    font-weight: bold;
+    font-style: italic;
+}
